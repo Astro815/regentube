@@ -1,0 +1,9 @@
+/* FONTs */
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+/* GLOBALs */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
