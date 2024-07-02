@@ -1,87 +1,3 @@
-body {
-    display: grid;
-    grid-template-areas: "header header""main side";
-    grid-template-rows: 10vh auto;
-    grid-template-columns: auto 20vw;
-    width: 100vw;
-    height: 100vh;
-}
-
-header, side, main {
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-/* HEADER */
-
-header {
-    grid-area: header;
-    align-items: center;
-    justify-content: center;
-    background-color: #282828;
-}
-
-#regentube-icon {
-    height: 100%;
-    transform: scale(1.25);
-    user-select: none;
-    pointer-events: none;
-}
-
-#regentube-icon+h2 {
-    font-family: Jockey One;
-    font-size: 36px;
-    font-weight: normal;
-    color: white;
-}
-
-#regentube-icon+h2 red {
-    color: #FF2A2A;
-}
-
-/* SIDE */
-
-side {
-    grid-area: side;
-    background-color: #0F0F0F;
-    flex-direction: column;
-    padding-block: 1em;
-}
-
-side button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: calc(100% - 2em);
-    height: 3.25em;
-    text-align: left;
-    padding: 0px 2em;
-    background-color: transparent;
-    color: white;
-    border: none;
-    border-radius: 1em;
-    margin: 0px 1em;
-    justify-content: flex-start;
-}
-
-side button:hover {
-    background-color: #fff3;
-    cursor: pointer;
-}
-
-side button img {
-    height: 50%;
-    margin-right: 0.75em;
-}
-
-side hr {
-    margin: 0.5em 1em;
-    border: none;
-    height: 1px;
-    background-color: #282828;
-}
-
 /* MAIN */
 
 main {
@@ -91,29 +7,41 @@ main {
     grid-template-columns: repeat(var(--div-video), calc(100% / var(--div-video)));
     overflow-y: scroll;
     overflow-x: hidden;
+    padding: 1em;
 }
 
 main div {
     display: grid;
-    grid-template-areas:
-        "thumb"
+    grid-template-areas: "thumb"
         "title"
         "info";
     grid-template-rows: auto 1.5em auto;
     height: 14em;
-    border: 2px solid black;
+    /* border: 1px solid #aaa; */
     border-radius: 1em;
     /* padding: 0.25em; */
-    margin: 0.25em;
+    height: fit-content;
+    margin: 0.45em;
+    padding-bottom: 0.5em;
     align-items: start;
     justify-items: start;
+    contain: layout;
     font-family: system-ui;
+    transition: all 150ms;
+}
+
+main>div:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 main div img {
     grid-area: thumb;
     width: 100%;
     aspect-ratio: 16/9;
+    /* border-radius: 0.95em 0.95em 0px 0px; */
+    border-radius: 1em;
+    object-fit: cover;
 }
 
 main div h3 {

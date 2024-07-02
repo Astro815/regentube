@@ -7,3 +7,85 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    display: grid;
+    grid-template-areas: "header header""main side";
+    grid-template-rows: 10vh auto;
+    grid-template-columns: auto 20vw;
+    width: 100vw;
+    height: 100vh;
+}
+
+header, side, main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+/* HEADER */
+
+header {
+    grid-area: header;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+}
+
+#regentube-icon {
+    height: 100%;
+    transform: scale(1.25);
+    user-select: none;
+    pointer-events: none;
+}
+
+#regentube-icon+h2 {
+    font-family: Jockey One;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+
+#regentube-icon+h2 red {
+    color: #FF2A2A;
+}
+/* SIDE */
+
+side {
+    grid-area: side;
+    background-color: #0F0F0F;
+    flex-direction: column;
+    padding-block: 1em;
+}
+
+side button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: calc(100% - 2em);
+    height: 3.25em;
+    text-align: left;
+    padding: 0px 2em;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    margin: 0px 1em;
+    justify-content: flex-start;
+}
+
+side button:hover {
+    background-color: #fff3;
+    cursor: pointer;
+}
+
+side button img {
+    height: 50%;
+    margin-right: 0.75em;
+}
+
+side hr {
+    margin: 0.5em 1em;
+    border: none;
+    height: 1px;
+    background-color: #282828;
+}

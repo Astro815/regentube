@@ -6,3 +6,10 @@ Gere um database em JSON, com varios supostos videos do youtube, uma lista com 2
 
 last_hous: coloque tipo "3 dias", "2 horas", "1 semana", "4 anos"
 O conteúdo dos videos deve ser algo bobo, invesperado, exemplos: "como abrir uma porta", "perdi meu BV", "ultimas noticias do bananasembanananews.com", "escola usam ia para ensinar a como usar o chatgpt", "você é bonito ou feio?"
+
+#3
+Gere um database em JSON, com varios supostos videos do youtube, uma lista com 20 videos, caum com as seguintes chaves: [id, title, views, name_channel, thumbnail_url, last_hours]
+
+last_hours: coloque tipo "3 dias", "2 horas", "1 semana", "4 anos"
+id: É um codigo aleatório de 5 a 8 letras e numeros aleatórios, mas que as vezes podem ser palavras aleatórias.
+O conteúdo dos videos deve ser algo bobo, invesperado, exemplos: "como abrir uma porta", "perdi meu BV", "ultimas noticias do bananasembanananews.com", "escola usam ia para ensinar a como usar o chatgpt", "você é bonito ou feio?"
