@@ -2,35 +2,43 @@
     "videos": [
       {
         "id": "gfh123j",
-        "title": "Como abrir uma porta",
-        "views": "100.000",
-        "name_channel": "Canal do João",
-        "thumbnail_url": "https://i.ytimg.com/vi/gfh123j/hqdefault.jpg",
+        "v_url": "./database/gfh123j.mp4",
+        "v_type": "local",
+        "title": "Pessoal do tecnico",
+        "views": "132.697,5",
+        "name_channel": "jozé carlos",
+        "thumbnail_url": "./database/gfh123j.jpg",
         "last_hours": "3 dias"
       },
       {
         "id": "asd456kl",
-        "title": "Perdi meu BV",
-        "views": "500.000",
-        "name_channel": "Canal da Maria",
-        "thumbnail_url": "https://i.ytimg.com/vi/asd456kl/hqdefault.jpg",
-        "last_hours": "2 horas"
+        "title": "Nyan Cat!",
+        "v_url": "https://www.youtube.com/embed/2yJgwwDcgV8",
+        "v_type": "yt",
+        "views": "50.000.000",
+        "name_channel": "Cattttttt",
+        "thumbnail_url": "https://i.ytimg.com/an_webp/2yJgwwDcgV8/mqdefault_6s.webp?du=3000&sqp=COGtwLUG&rs=AOn4CLAG_YaTdWl1FWgIncVptDIsoUQr9Q",
+        "last_hours": "8 anos"
       },
       {
         "id": "zxc789mn",
-        "title": "Últimas notícias do bananasembanananews.com",
-        "views": "1.000.000",
-        "name_channel": "Canal do Bananasembanananews",
-        "thumbnail_url": "https://i.ytimg.com/vi/zxc789mn/hqdefault.jpg",
+        "v_url": "https://www.youtube.com/embed/XnmB5OEk5Qw",
+        "v_type": "yt",
+        "title": "QUAL É A MELHOR FARM DE FERRO DO MINECRAFT ?",
+        "views": "13.000.000",
+        "name_channel": "Cariani",
+        "thumbnail_url": "https://i.ytimg.com/vi/XnmB5OEk5Qw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAHIPAQOEy5SG0TRiQ069-tLfSmCg",
         "last_hours": "1 semana"
       },
       {
         "id": "qwe012rt",
-        "title": "Escola usam IA para ensinar a como usar o ChatGPT",
+        "v_url": "https://www.youtube.com/embed/JYpqvRZ_6xk",
+        "v_type": "yt",
+        "title": "Knuper Trailer Oficial | StayForGame",
         "views": "5.000.000",
-        "name_channel": "Canal da Escola",
-        "thumbnail_url": "https://i.ytimg.com/vi/qwe012rt/hqdefault.jpg",
-        "last_hours": "4 anos"
+        "name_channel": "StayForGame",
+        "thumbnail_url": "https://i.ytimg.com/vi/JYpqvRZ_6xk/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCVOQWhSuDyITTdHiLNA47IAeFY3Q",
+        "last_hours": "baixe em 5 min."
       },
       {
         "id": "tyu345vb",

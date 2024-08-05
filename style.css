@@ -10,7 +10,7 @@ main {
     padding: 1em;
 }
 
-main div {
+main div.video-thumb {
     display: grid;
     grid-template-areas: "thumb"
         "title"
@@ -30,12 +30,12 @@ main div {
     transition: all 150ms;
 }
 
-main>div:hover{
+main>div.video-thumb:hover{
     cursor: pointer;
     transform: scale(1.05);
 }
 
-main div img {
+main div.video-thumb img {
     grid-area: thumb;
     width: 100%;
     aspect-ratio: 16/9;
@@ -44,7 +44,7 @@ main div img {
     object-fit: cover;
 }
 
-main div h3 {
+main div.video-thumb h3 {
     grid-area: title;
     display: block;
     width: 100%;
@@ -56,7 +56,7 @@ main div h3 {
     font-size: 16px;
 }
 
-main div p {
+main div.video-thumb p {
     grid-area: info;
     display: block;
     width: 100%;
